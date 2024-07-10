@@ -1,0 +1,16 @@
+{
+  "name": "pixelquest-",
+  "version": "1.0.0",
+  "description": "Game project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0"
+  }
+}
