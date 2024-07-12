@@ -737,7 +737,7 @@ hr{
     align-items:center ;
 }
 
-.footer_first-block{
+.footer_first-block, .footer_link{
     width: 30%;
     height: 120px;
 }
@@ -759,5 +759,21 @@ hr{
 
 .footer_about-us i:hover{
     background-color: white;
+    color: #f0931a;
+}
+
+.footer_link h2{
+    color: white;
+}
+
+.footer_link ul{
+    text-decoration: none;
+}
+.footer_link li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer_link li a:hover{
     color: #f0931a;
 }
