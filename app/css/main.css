@@ -729,6 +729,15 @@ hr{
     color: white;
 }
 
+@media(max-width:440px){
+    .contact_block{
+        flex-direction: column;
+        height: 290px;
+    }
+}
+
+
+
 .footer_about-us{
     width: 100%;
     height: 230px;
@@ -791,3 +800,54 @@ hr{
     padding: 5px;
     margin-top: 8px;
 }
+
+@media(max-width:840px){
+    .footer_about-us{
+        height: 290px;
+    }
+}
+
+@media(max-width:795px){
+    .footer_about-us{
+        height: 290px;
+        align-items: normal;
+        padding-top: 25px;
+    }
+}
+
+@media(max-width:550px){
+    .footer_about-us{
+        flex-direction: column;
+        height: 690px;
+        justify-content: stretch;
+        align-items: normal;
+    }
+
+    .footer_first-block{
+        margin: 0 auto;
+    }
+
+    .footer_link{
+        margin: 0 auto;
+        margin-top: 170px;
+    }
+
+    .footer_copy{
+        margin: 30px auto;
+    }
+
+}
+
+@media(max-width:480px){
+   .footer_first-block{
+    width: 40%;
+   }
+
+    .footer_link{
+        margin-top: 190px;
+    }
+    .footer_about-us{
+        height: 740px;
+    }
+}
+
