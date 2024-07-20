@@ -67,6 +67,17 @@ body{
     }
 }
 
+@media(max-width:388px){
+    .header__block{
+        height: 200px;
+    }
+
+    .header__nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
      /*Блок поиска*/
 
 .search{
@@ -104,6 +115,12 @@ body{
        left: 50%;
        right: 50%;
        transform: translate(-50%, -50%);
+    }
+}
+
+@media(max-width:388px){
+    .search{
+        top: 260px;
     }
 }
    
@@ -167,5 +184,11 @@ body{
         left: 50%;
         right: 50%;
         transform: translate(-50%, -50%);
+    }
+}
+
+@media(max-width:388px){
+    .registration-form{
+        top: 330px;
     }
 }
