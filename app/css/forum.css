@@ -6,6 +6,11 @@
 body{
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden; 
+    background-image: url(../img/kratostrain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
      /*HEADER*/
@@ -20,7 +25,7 @@ body{
     width: 100%;
     height: 80px;
     display: flex;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.7);
     align-items: center;
     justify-content: space-around;
 }
@@ -191,4 +196,47 @@ body{
     .registration-form{
         top: 330px;
     }
+}
+
+        /*Блок форума*/
+
+
+.main{
+    width: 100%;
+    height: 580px;
+    display: flex;
+}
+
+.topic_block{
+    width: 30%;
+    height: 100%;
+    background-color: rgba(165, 165, 165, 0.4);
+}
+
+.topic_block h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.subject_block{
+   padding-top: 20px;
+   margin-left: 50px;
+}
+
+.subject_block h3{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.subject_list li{
+    list-style: none;
+}
+
+.subject_list a{
+    text-decoration: none;
+    color: black;
+}
+
+.subject_list a:hover{
+    color: #f0931a;
 }
