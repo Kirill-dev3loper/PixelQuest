@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden; 
+   background-image: url(../img/new_account.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-blend-mode: multiply;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.new_account{
+    width: 450px;
+    height: 450px;
+    border: 2px solid #f0931a;
+    border-radius: 10px;
+    margin: 70px auto;
+}
+
+.new_account h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.new_account label{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.new_account input{
+    display: block;
+    margin: 0 auto;
+}
+
+.new_account button{
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+    color: white;
+    background-color: #f0931a;
+    border-radius: 8px;
+    outline: none;
+}
